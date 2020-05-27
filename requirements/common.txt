@@ -1,21 +1,20 @@
 # General
-pytz==2019.3
+pytz==2020.1
 # Testing
-mock==2.0.0
-vcrpy==2.0.1
-python-dateutil==2.7.5
+mock==4.0.2
+vcrpy==4.0.2
+python-dateutil==2.8.1
 # Consumer
-kombu==4.0.2
+kombu==4.6.8
 librabbitmq==2.0.0
 # Harvester
-petl==1.2.0
-xlsxwriter==1.1.2
+petl==1.3.0
+xlsxwriter==1.2.8
 iso8601==0.1.12
-# Master support Py3, but no release.
-git+https://github.com/Supervisor/supervisor
+supervisor==4.2.0
 # Warc iter
-warcio==1.5.3
+warcio==1.7.3
 # API client
-requests==2.22.0
+requests==2.23.0
 # Need to hold back idna for the sake of urlcanon 2.0 (needed by warcprox)
 idna==2.7
